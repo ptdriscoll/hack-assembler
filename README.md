@@ -8,7 +8,7 @@ The Hack computer is built from scratch, starting with logic and flip-flop gates
 
 <br>
 
-<img src="img/hack-assembler.png" width="700">
+<img src="img/hack-assembler.png" width="650">
 
 ### Usage
 
