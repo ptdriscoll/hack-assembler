@@ -6,7 +6,7 @@ The binary code is designed to run on a simple general-purpose computer, which i
 
 The Hack computer is built from scratch, starting with logic and flip-flop gates and working up to ALU, RAM and CPU chips. The assembler is the first software layer before moving on to building a virtual machine, compiler and operating system. 
 
-</br>
+<br>
 
 <img src="img/hack-assembler.png" width="800">
 
