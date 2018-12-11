@@ -16,7 +16,7 @@ Hack Assembler reads an assembly program - such as Add.asm - located in data/inp
 
 Examples:
 
-- To translate Pong.asm, use this command-line argument from root folder: `python -m assembler Pong.asm`
+- To translate Pong.asm, use this command-line argument from the root folder: `python -m assembler Pong.asm`
 - To run a test module, such as phase1: `python -m tests.phase1`
 - To run a specific test, note addition of unittest: `python -m unittest tests.phase1.Parser.test_init`
 
