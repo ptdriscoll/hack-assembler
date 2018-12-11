@@ -22,9 +22,9 @@ Examples:
 
 ### References
 
-- https://docs.wixstatic.com/ugd/56440f_65a2d8eef0ed4e0ea2471030206269b5.pdf
-- https://docs.wixstatic.com/ugd/44046b_89a8e226476741a3b7c5204575b8a0b2.pdf
-- https://www.nand2tetris.org/software
-- https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=ed_oe_p
-- https://www.coursera.org/learn/build-a-computer
-- https://www.coursera.org/learn/nand2tetris2
+- Overview: https://docs.wixstatic.com/ugd/56440f_65a2d8eef0ed4e0ea2471030206269b5.pdf
+- Book Chapter: https://docs.wixstatic.com/ugd/44046b_89a8e226476741a3b7c5204575b8a0b2.pdf
+- Website: https://www.nand2tetris.org/software
+- Book: https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=ed_oe_p
+- Course I: https://www.coursera.org/learn/build-a-computer
+- Course II: https://www.coursera.org/learn/nand2tetris2
