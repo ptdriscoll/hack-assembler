@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*- 
 
 """
-SymbolTable class to keep correspondence between symbolic labels and numeric addresses.
+SymbolTable class to keep correspondence between symbolic labels and numeric addresses. 
+A new instance is needed for each file translation.
 """
 
 
 class SymbolTable:
     """
-    Creates and maintain correspondence between symbols and their meaning (RAM and ROM addresses).
+    Creates and maintains correspondence between symbols and their meaning (RAM and ROM addresses).
     """
     
     def __init__(self):

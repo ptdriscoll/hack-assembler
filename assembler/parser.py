@@ -41,7 +41,7 @@ class Parser:
         to_print += '           Current line: ' + self._content[self._current_command] + '\n'
         to_print += '      Next command line: ' + str(self._next_command) + '\n'
         to_print += '           Next command: ' + self._content[self._next_command] + '\n'
-        to_print += 'Current translated line: '+ str(self._next_translated_command - 1) + '\n'
+        to_print += 'Current translated line: ' + str(self._next_translated_command - 1) + '\n'
         return to_print        
 
     def has_more_commands(self, first_pass=True):
@@ -81,11 +81,10 @@ class Parser:
     def advance(self):
         """
         Reads the next command from input and makes it the current command. 
-        Should be called only if hasMoreCommands() is true. 
-        Initially there is no current command.
+        Advances commands for both content index and translated text index. 
+        Should be called only if has_more_commands() is true. Initially there is no current command.
         """    
         
-        #advance commands for both content index and translated text index 
         self._current_command = self._next_command        
         self._next_translated_command += 1        
         return self._current_command    
@@ -159,7 +158,7 @@ class Parser:
             
             #number variables
             if value.isdigit():
-                address = int(int(value)) 
+                address = int(value) 
             
             #symbol variables            
             elif self._symbols.contains(value):
