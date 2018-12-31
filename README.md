@@ -18,8 +18,8 @@ Examples:
 
 - To translate Pong.asm, use this command-line argument from the root folder: `python -m assembler Pong.asm`
 - To translate all files in the data/input/ directory: `python -m assembler run_all`
-- To run a test module, such as phase1: `python -m tests.phase1`
-- To run a specific test, note addition of unittest: `python -m unittest tests.phase1.Parser.test_init`
+- To run a test module, such as test_1: `python -m tests.test_1`
+- To run a specific test, note addition of unittest: `python -m unittest tests.test_1.Add.test_init`
 - To run all tests: `python -m unittest`
 
 ### References
