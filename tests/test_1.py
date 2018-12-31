@@ -2,8 +2,9 @@
 
 """
 Assember tests for .asm files without symbols.
-To run tests in command line, i.e. for phase1 tests: prompt> python -m tests.phase1
-To run a specific test, note addition of unittest: prompt> python -m unittest tests.phase1.Parser.test_init
+To run tests in command line, i.e. for test_1 tests: prompt> python -m tests.test_1
+To run a specific test, note addition of unittest: prompt> python -m unittest tests.test_1.Parser.test_init
+To run all tests in the tests package: prompt> python -m unittest
 """
 
 from .context import assembler 

@@ -2,8 +2,9 @@
 
 """
 Assember tests for .asm files WITH symbols.
-To run tests in command line, i.e. for phase1 tests: prompt> python -m tests.phase2
-To run a specific test, note addition of unittest: prompt> python -m unittest tests.phase2.Parser.test_init
+To run tests in command line, i.e. for test_2 tests: prompt> python -m tests.test_2
+To run a specific test, note addition of unittest: prompt> python -m unittest tests.test_2.Parser.test_init
+To run all tests in the tests package: prompt> python -m unittest
 """
 
 from .context import assembler 
@@ -112,10 +113,10 @@ class Compare(unittest.TestCase):
 
     def test_run(self): 
         self.assertTrue(filecmp.cmp('./data/output/Max.hack', './data/compare/Max.hack'))
-        #self.assertTrue(filecmp.cmp('./data/output/Pong.hack', './data/compare/Pong.hack'))
+        self.assertTrue(filecmp.cmp('./data/output/Pong.hack', './data/compare/Pong.hack'))
         self.assertTrue(filecmp.cmp('./data/output/Rect.hack', './data/compare/Rect.hack')) 
 
-class PongPring(unittest.TestCase):
+class PongPrint(unittest.TestCase):
     """
     Compare and print lines between Pong output and compare files
     """
